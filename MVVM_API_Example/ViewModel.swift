@@ -20,6 +20,6 @@ final class UsersViewModel: ObservableObject {
         let (data, _) = try await URLSession.shared.data(from: URL(string: "https://jsonplaceholder.typicode.com/users")!)
         
         let decoder = JSONDecoder()
-        self.users = try decoder.decode ([User].self, from: data)
+        self.users = try decoder.decode([User].self, from: data)
     }
 }
