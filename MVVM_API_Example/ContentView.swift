@@ -38,7 +38,7 @@ struct ContentView: View {
             }
         }
         .task {
-            
+        
             do {
                 try await vm.fetchUsers()
             } catch {
@@ -53,14 +53,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-private extension ContentView {
-
-    func fetchUsors () async throws -> [User] {
-        
-    let (data, _) = try await URLSession.shared.data(from: URL(string: "https://jsonplaceholder.typicode.com/users")!)
-        let decoder = JSONDecoder()
-        return try decoder.decode([User].self, from: data)
-    }
-}
-
