@@ -36,3 +36,23 @@ struct Geo: Codable {
     let lat: String
     let lng: String
 }
+
+extension User {
+    
+    static var dummy: User {
+        .init(id: 1,
+              name: "Tunde Ads",
+              username: "tundsdev",
+              email: "tunds@gmail.com",
+              address: .init(street: "Street 1",
+                             suite: "Suite 1",
+                             city: "Manny",
+                             zipcode: "M40 000",
+                             geo:
+.init(lat:
+"0.61", 1ng: "0.24")),
+phone: "0161-MANNY-ON-THE-MAp
+website: "tundsdev.com"
+company: .init(name: "tundsdev"
+catchPhrase:
+"tundsdev"
