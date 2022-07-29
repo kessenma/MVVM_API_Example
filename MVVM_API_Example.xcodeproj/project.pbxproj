@@ -12,6 +12,8 @@
 		56B08B112894175200230E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B08B102894175200230E94 /* Assets.xcassets */; };
 		56B08B142894175200230E94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B08B132894175200230E94 /* Preview Assets.xcassets */; };
 		56B08B1B2894180500230E94 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08B1A2894180500230E94 /* Model.swift */; };
+		56B08B1D2894199C00230E94 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08B1C2894199C00230E94 /* ViewModel.swift */; };
+		56B08B1F2894243700230E94 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08B1E2894243700230E94 /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		56B08B102894175200230E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56B08B132894175200230E94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		56B08B1A2894180500230E94 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		56B08B1C2894199C00230E94 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		56B08B1E2894243700230E94 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				56B08B0C2894174E00230E94 /* MVVM_API_ExampleApp.swift */,
 				56B08B0E2894174E00230E94 /* ContentView.swift */,
+				56B08B1E2894243700230E94 /* UserInfoView.swift */,
 				56B08B1A2894180500230E94 /* Model.swift */,
+				56B08B1C2894199C00230E94 /* ViewModel.swift */,
 				56B08B102894175200230E94 /* Assets.xcassets */,
 				56B08B122894175200230E94 /* Preview Content */,
 			);
@@ -142,7 +148,9 @@
 			files = (
 				56B08B1B2894180500230E94 /* Model.swift in Sources */,
 				56B08B0F2894174E00230E94 /* ContentView.swift in Sources */,
+				56B08B1D2894199C00230E94 /* ViewModel.swift in Sources */,
 				56B08B0D2894174E00230E94 /* MVVM_API_ExampleApp.swift in Sources */,
+				56B08B1F2894243700230E94 /* UserInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
