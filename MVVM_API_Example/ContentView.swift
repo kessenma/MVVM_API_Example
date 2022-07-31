@@ -20,22 +20,19 @@ struct ContentView: View {
                     List {
                         ForEach(vm.users, id: \.id) { user in
                             
-                            VStack {
-                                
-                                Text(user.name)
-                                    .bold()
-                            }
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding()
-                            .background(.gray.opacity(0.1),
-                                        in: RoundedRectangle (cornerRadius: 10, style: .continuous))
-                            .listRowSeparator(.hidden)
+                            UserInfoView(name: user.name)
+                                .background(
+                                    NavigationLink("", destination: UserDetailView(user: user))
+//                                    takes out the carrot if you want, but i like the carrot
+//                                        .opacity(0)
+                                )
                         }
+                        .listRowSeparator(.hidden)
                     }
                     .listStyle(.plain)
                     .navigationTitle("Users")
                 }
-            }
+             }
         }
         .task {
         

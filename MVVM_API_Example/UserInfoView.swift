@@ -20,7 +20,6 @@ struct UserInfoView: View {
         .padding()
         .background(.gray.opacity(0.1),
                     in: RoundedRectangle(cornerRadius: 10, style: .continuous))
-        .listRowSeparator(.hidden)
     }
 }
 

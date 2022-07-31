@@ -85,7 +85,8 @@ private extension UserDetailView {
 }
 struct UserDetailView_Previews: PreviewProvider {
     static var previews: some View{
-    UserDetailView(user: User)
+        UserDetailView(user: .dummy)
+            .previewLayout(.sizeThatFits)
     }
 }
 

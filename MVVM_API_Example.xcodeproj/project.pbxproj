@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5629D276289711340013FCCF /* MVVM_example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5629D275289711340013FCCF /* MVVM_example.jpg */; };
+		5629D278289711460013FCCF /* MVVM_example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5629D277289711460013FCCF /* MVVM_example.jpg */; };
 		56B08B0D2894174E00230E94 /* MVVM_API_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08B0C2894174E00230E94 /* MVVM_API_ExampleApp.swift */; };
 		56B08B0F2894174E00230E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08B0E2894174E00230E94 /* ContentView.swift */; };
 		56B08B112894175200230E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B08B102894175200230E94 /* Assets.xcassets */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5629D27428970FC50013FCCF /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		5629D275289711340013FCCF /* MVVM_example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MVVM_example.jpg; sourceTree = "<group>"; };
+		5629D277289711460013FCCF /* MVVM_example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MVVM_example.jpg; sourceTree = "<group>"; };
 		56B08B092894174E00230E94 /* MVVM_API_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_API_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B08B0C2894174E00230E94 /* MVVM_API_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_API_ExampleApp.swift; sourceTree = "<group>"; };
 		56B08B0E2894174E00230E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 		56B08B002894174E00230E94 = {
 			isa = PBXGroup;
 			children = (
+				5629D27428970FC50013FCCF /* ReadMe.md */,
 				56B08B0B2894174E00230E94 /* MVVM_API_Example */,
 				56B08B0A2894174E00230E94 /* Products */,
 			);
@@ -59,6 +65,7 @@
 		56B08B0B2894174E00230E94 /* MVVM_API_Example */ = {
 			isa = PBXGroup;
 			children = (
+				5629D277289711460013FCCF /* MVVM_example.jpg */,
 				56B08B0C2894174E00230E94 /* MVVM_API_ExampleApp.swift */,
 				56B08B0E2894174E00230E94 /* ContentView.swift */,
 				56B08B1E2894243700230E94 /* UserInfoView.swift */,
@@ -74,6 +81,7 @@
 		56B08B122894175200230E94 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5629D275289711340013FCCF /* MVVM_example.jpg */,
 				56B08B132894175200230E94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -137,8 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5629D278289711460013FCCF /* MVVM_example.jpg in Resources */,
 				56B08B142894175200230E94 /* Preview Assets.xcassets in Resources */,
 				56B08B112894175200230E94 /* Assets.xcassets in Resources */,
+				5629D276289711340013FCCF /* MVVM_example.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -48,11 +48,11 @@ extension User {
                              suite: "Suite 1",
                              city: "Manny",
                              zipcode: "M40 000",
-                             geo:
-.init(lat:
-"0.61", 1ng: "0.24")),
-phone: "0161-MANNY-ON-THE-MAp
-website: "tundsdev.com"
-company: .init(name: "tundsdev"
-catchPhrase:
-"tundsdev"
+                             geo: .init(lat: "0.61", lng: "0.24")),
+              phone: "0161-MANNY-ON-THE-MAp",
+              website: "tundsdev.com",
+              company: .init(name: "tundsdev",
+                             catchPhrase: "tundsdev",
+                             bs: ""))
+    }
+}
